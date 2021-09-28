@@ -7,7 +7,8 @@ def main():
     base = int(input("Enter the base number:"))
     exponent = int(input("Enter the exponent:"))
 
-    for exponent in range (exponent):
+
+    for exponent in range (exponent+1):
         result= base ** exponent
         print("The answer is:",result)
 main()
