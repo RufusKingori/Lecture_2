@@ -10,5 +10,7 @@ def main():
 
     for exponent in range (exponent+1):
         result= base ** exponent
-        print("The answer is:",result)
+
+    print("The answer is:",result)
 main()
+
